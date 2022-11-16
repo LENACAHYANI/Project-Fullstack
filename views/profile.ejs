@@ -1,0 +1,56 @@
+<div class="teks1">
+    <h1>Vision</h1>
+    <p>
+      Duis aute irure dolor in reprehenderit in <br />
+      voluptate velit esse cillum dolore eu fugiat <br />
+      nulla pariatur. Excepteur sint occaecat <br />
+      cupidatat non proident, sunt in culpa qui <br />
+      officia deserunt mollit anim id est <br />
+      laborum.
+    </p>
+  </div>
+  <div class="teks2">
+    <h1>Mision</h1>
+    <p>
+      Duis aute irure dolor in reprehenderit in <br />
+      voluptate velit esse cillum dolore eu fugiat <br />
+      nulla pariatur. Excepteur sint occaecat <br />
+      cupidatat non proident, sunt in culpa qui <br />
+      officia deserunt mollit anim id est <br />
+      laborum.
+    </p>
+  </div>
+  <div class="box1">
+    <h1 align="center">Our Team</h1>
+    <div class="box2">
+      <center>
+        <table>
+          <tr>
+            <td>Nama</td>
+            <td>Position</td>
+            <td>skill</td>
+          </tr>
+          <% data.forEach(row => { %>
+          <tr>
+            <td><%= row.employeeName %> </td>
+            <td><%= row.position %> </td>
+            <td><%= row.skill %> </td>
+          </tr>
+          <% }) %>
+        </table>
+      </center>
+    </div>
+  </div>
+  <footer>
+    <img src="Lo-removebg-preview.png" alt="" width="100px" />
+    <p>Scorpio@gmail.com</p>
+    <p>0831923456</p>
+    <div class="icon">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <script src="https://kit.fontawesome.com/8c8e800635.js" crossorigin="anonymous"></script>
+  </footer>
+</body>
+</html>
